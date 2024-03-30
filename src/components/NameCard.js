@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import DataContext from '../data/dataContext'
 
 const NameCard = () => {
-    const {socialName,role,address,follow,setFollow} = useContext(DataContext)
+    const {socialName,role,userDetails,follow,setFollow} = useContext(DataContext)
     return (
         <div
             class="card text-white bg-white d-flex align-items-center justify-content-center m-2"
@@ -15,7 +15,7 @@ const NameCard = () => {
             <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
                 <h4 class="card-title text-dark">{socialName}</h4>
                 <p class="card-text text-muted">{role}</p>
-                <p class="card-text text-muted">{address}</p>
+                <p class="card-text text-muted">{userDetails[4].value}</p>
                 <span className='d-flex flex-wrap align-items-center justify-content-center'>
                     <a
                         name=""
