@@ -1,0 +1,69 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "userDetails": [
+        {
+          "id": 1,
+          "label": "Full Name",
+          "value": "Surya"
+        },
+        {
+          "id": 2,
+          "label": "Email",
+          "value": "naturemusicof@gmail.com"
+        },
+        {
+          "id": 3,
+          "label": "Phone",
+          "value": "09677867497"
+        },
+        {
+          "id": 4,
+          "label": "Mobile",
+          "value": "(320) 380-4539"
+        },
+        {
+          "id": 5,
+          "label": "Address",
+          "value": "nehru street"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "projectStatus": [
+        {
+          "id": 1,
+          "projectName": "Web Design",
+          "projectScore": 73
+        },
+        {
+          "id": 2,
+          "projectName": "Website Markup",
+          "projectScore": 27
+        },
+        {
+          "id": 3,
+          "projectName": "One Page",
+          "projectScore": 32
+        },
+        {
+          "id": 4,
+          "projectName": "Mobile Template",
+          "projectScore": 57
+        },
+        {
+          "id": 5,
+          "projectName": "Backend API",
+          "projectScore": 40
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "followStatus": "Follow",
+      "role": "Full Stack Developer"
+    }
+  ]
+}
